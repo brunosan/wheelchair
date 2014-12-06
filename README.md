@@ -1,6 +1,27 @@
 Quick note:
 Forked from @tmcw to re-use for wheelchair access tagging.
 
+
+According to the OSM [guidelines](http://wiki.openstreetmap.org/wiki/Key:wheelchair) the options are:
+* **wheelchair=yes**
+    Wheelchairs have full unrestricted access. Use this tag to mark a feature in the United States as compliant with the Americans with Disabilities Act (ADA).
+    entry: stepless
+    rooms: stepless
+    toilet (if any): accessible and cabin is wide enough to fit a wheelchair next to the toilet
+* **wheelchair=limited**
+    Wheelchairs have partial access (e.g some areas can be accessed and others not, areas requiring assistance by someone pushing up a steep gradient).
+    entry: has a step but not higher than 7 cm / 3 inch ('width of a hand')
+    rooms: the most important rooms are stepless
+   toilet (if any): not accessible
+* **wheelchair=no**
+    Wheelchairs have no unrestricted access (e.g. stair only access).
+    entry: has a step higher than 7 cm / 3 inch
+    rooms: the important rooms are not accessible
+    toilet (if any): not accessible
+* **wheelchair=designated**
+    The way or area is designated or purpose built for wheelchairs (e.g. elevators designed for wheelchair access only). This is rarely used.
+* Note: There is currently **no default value** for wheelchair access. 
+
 <hr>
 
 # COFFEE DEX
