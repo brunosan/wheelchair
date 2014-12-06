@@ -25,9 +25,9 @@ const KEYPAIR = { k: 'amenity', v: 'cafe' },
   TAG = 'cost:coffee',
 // The version string is added to changesets to let OSM know which
 // editor software is responsible for which changes.
-  VERSION = 'COFFEEDEX 2002',
   MBX = 'pk.eyJ1IjoidG1jdyIsImEiOiIzczJRVGdRIn0.DKkDbTPnNUgHqTDBg7_zRQ',
   MAP = 'tmcw.kbh273ee',
+  VERSION = 'Wheelchair BSAN 0.0',
   PIN = 'pin-l-cafe',
   LOC = 'pin-s';
 
