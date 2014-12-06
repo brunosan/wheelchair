@@ -1,3 +1,8 @@
+Quick note:
+Forked from @tmcw to re-use for wheelchair access tagging.
+
+<hr>
+
 # COFFEE DEX
 
 _A collaborative solution to the problem of_
