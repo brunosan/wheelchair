@@ -22,7 +22,7 @@ const OAUTH_CONSUMER_KEY = '8NNh4FjJoB91Lla3H7knMJcBWy3P7uTxUem6qWqt',
 // This is used to show certain nodes in the list: otherwise the ones
 // we're looking for would be crowded out by telephone poles etc.
 const KEYPAIR = { k: 'amenity', v: 'cafe' },
-  TAG = 'cost:coffee',
+  TAG = 'wheelchair',
 // The version string is added to changesets to let OSM know which
 // editor software is responsible for which changes.
   VERSION = 'Wheelchair BSAN 0.0',
