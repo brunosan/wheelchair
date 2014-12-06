@@ -15,8 +15,8 @@ const API06 = 'http://api.openstreetmap.org/api/0.6/',
   OVERPASS = 'http://overpass-api.de/api/interpreter';
 
 // Constants for our OAuth connection to OpenStreetMap.
-const OAUTH_CONSUMER_KEY = 'VTdXpqeoRiraqICAoLN3MkPghHR5nEG8cKfwPUdw',
-  OAUTH_SECRET = 'ugrQJAmn1zgdn73rn9tKCRl6JQHaZkcen2z3JpAb';
+const OAUTH_CONSUMER_KEY = '8NNh4FjJoB91Lla3H7knMJcBWy3P7uTxUem6qWqt',
+  OAUTH_SECRET = 'C3Wxnpl6Ut8Cbz1YMZzEdcGZHsHPNupseAZyqf45';
 
 // # Configuration
 // This is used to show certain nodes in the list: otherwise the ones
