@@ -246,7 +246,7 @@ var LogIn = React.createClass({
     /* jshint ignore:start */
     return (<div className='pad2'>
         <div className='pad1 space-bottom1'>
-          COFFEEDEX is built on OpenStreetMap and requires an OpenStreetMap account.
+          Wheelchair is built on OpenStreetMap and requires an OpenStreetMap account.
         </div>
         <button
           onClick={userLogin}
@@ -310,8 +310,8 @@ var List = React.createClass({
               className='inline' src='assets/logo_inverted.png' />
           </div>
           <div className='col8 pad2y pad1x'>
-            <h3>COFFEEDEX</h3>
-            <p className='italic'>how much does a cup of coffee for here cost, everywhere?</p>
+            <h3>Wheelchair</h3>
+            <p className='italic'>Can I get in with a Wheelchair?</p>
           </div>
         </div>
       </div>
@@ -397,16 +397,27 @@ var Help = React.createClass({
         className='home icon button fill-darken2 col12'>home</Link>
       <div className='pad1y'>
         <div className='round fill-lighten0 pad2 dark'>
-          <p><strong>COFFEEDEX</strong> is a community project that aims to track the price of house coffee everywhere.</p>
-          <p>The data is stored in <a href='http://osm.org/'>OpenStreetMap</a>, a free and open source map of the world, as tags on existing coffeehops. There are 150,000+.</p>
+          <p><strong>Wheelchair</strong> is a community project that aims to improve wheelchair access tagging on OSM.</p>
+          <p>The data is stored in <a href='http://osm.org/'>OpenStreetMap</a>, a free and open source map of the world.</p>
           <p>Maps in this application are &copy; <a href='http://mapbox.com/'>Mapbox</a>.</p>
-          <p>COFFEEDEX data stored in OpenStreetMap is <a href='http://www.openstreetmap.org/copyright'>available under the ODbL license.</a></p>
+          <p>Wheelchair data stored in OpenStreetMap is <a href='http://www.openstreetmap.org/copyright'>available under the ODbL license.</a></p>
           <p>This is also an open source project. You can view the source code, clone it, fork it, and make new things with it as inspiration or raw parts.</p>
-          <a className='button stroke icon github col12 space-bottom1' href='http://github.com/tmcw/coffeedex'>COFFEEDEX on GitHub</a>
-          <p><span className='icon mobile'></span> COFFEEDEX also works great on phones! Try it on your phone and add it to your iPhone home screen - it'll look even prettier.</p>
+          <a className='button stroke icon github col12 space-bottom1' href='http://github.com/brunosan/wheelchair'>Wheelchair on GitHub</a>
+          <p><span className='icon mobile'></span> Wheelchair also works great on phones! Try it on your phone and add it to your iPhone home screen - it'll look even prettier.</p>
           <h2>FAQ</h2>
           <ul>
-            <li><strong>Which coffee?</strong> This site tracks the price of <em>house coffee</em> for here. In many cases, that means a 12oz drip, but if all coffees are pour-overs or your country uses different standard size, the overriding rule is cheapest-here.</li>
+            <li><strong>Can I get in?</strong> This site improve wheelchair access tagging on OSM. According to the [OSM guidelines](http://wiki.openstreetmap.org/wiki/Key:wheelchair) we are using: 
+            <ul>
+            <li>There is no default value</li>
+            <li>wheelchair=yes Wheelchairs have full unrestricted access. Use this tag to mark a feature in the United States as compliant with the Americans with Disabilities Act (ADA). entry: stepless rooms: stepless toilet (if any): accessible and cabin is wide enough to fit a wheelchair next to the toilet
+            </li>
+            <li>wheelchair=limited Wheelchairs have partial access (e.g some areas can be accessed and others not, areas requiring assistance by someone pushing up a steep gradient). entry: has a step but not higher than 7 cm / 3 inch (width of a hand) rooms: the most important rooms are stepless toilet (if any): not accessible
+            </li>
+            <li>wheelchair=no Wheelchairs have no unrestricted access (e.g. stair only access). entry: has a step higher than 7 cm / 3 inch rooms: the important rooms are not accessible toilet (if any): not accessible
+            </li>
+            <li>wheelchair=designated The way or area is designated or purpose built for wheelchairs (e.g. elevators designed for wheelchair access only). This is rarely used.</li>
+            </ul>
+            </li>
           </ul>
         </div>
       </div>
